@@ -329,6 +329,7 @@ img { max-width: 100%; display: block; }
 .contact__form .invalid { border-color: var(--danger); }
 .contact__form .hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
 .form-msg { font-size: 0.9rem; }
+.form-note { font-size: 0.8rem; color: var(--muted); text-align: center; margin-top: -4px; }
 .form-msg--ok { color: var(--live); }
 .form-msg--error { color: var(--danger); }
 

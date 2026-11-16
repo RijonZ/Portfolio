@@ -75,6 +75,7 @@ export default function Contact({ profile }) {
           <button className="btn btn--primary" disabled={status.state === 'sending'}>
             {status.state === 'sending' ? t('contact.sending') : t('contact.send')}
           </button>
+          <p className="form-note">{t('contact.privacy')}</p>
           {status.msg && <p className={`form-msg form-msg--${status.state}`} role="status">{status.msg}</p>}
         </form>
       </div>

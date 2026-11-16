@@ -65,7 +65,7 @@ export default function App() {
       </main>
       <footer className="footer">
         <div className="container">
-          © {new Date().getFullYear()} {profile.name} · {t('footer')}
+          © {new Date().getFullYear()} {profile.name}
         </div>
       </footer>
     </>
